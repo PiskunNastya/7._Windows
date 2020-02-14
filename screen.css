@@ -1,0 +1,390 @@
+.body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+
+.body, .header__menu-item-link {
+    color: #313e5d;
+}
+
+.header__menu-item, .about-curtains__title, .stocks__text-position {
+    text-transform: uppercase;
+}
+
+.about-curtains__title_green-text, .about-curtains__number_green {
+    color: #0db682;
+    text-transform: none;
+}
+
+.stocks__title {
+    font-size: 36px;
+}
+
+.stocks__text {
+    font-size: 18px;
+}
+
+.about-curtains__text, .stocks__title-article {
+    font-size: 24px;
+}
+
+.header__text, .header__menu-item, .about-curtains__list_font-weight, .about-curtains__number_green, .stocks__text-position, .stocks__text_600, .payment__font-weight, .delivery__font-weight, .FAQ__all-quest {
+    font-weight: 600;
+}
+
+.about-curtains__button, .stocks__button {
+    width: 272px;
+    height: 56px;
+    background-color: #ff3365;
+    color: aliceblue;
+    box-shadow: 0 4px 10px 0 rgba(220, 53, 127, 0.32);
+    border-radius: 27px;
+}
+
+.about-curtains__button:hover, .stocks__button:hover {
+    content: '';
+    box-shadow: 0 4px 10px 0 rgba(220, 53, 127, 0.80);
+}
+
+.payment__article_background, .delivery__article_background {
+    background-color: #f5f5f9;
+    border-radius: 10px;
+    border: 1px solid #e9e9eb;
+}
+
+/* _____________________________________ start header _____________________________________ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 228px 15px;
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.12);
+    z-index: 1;
+    background-color: white;
+    min-width: 1240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__logo-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo {
+    width: 183px;
+    height: 33px;
+    margin: 0 32px 0 0;
+}
+
+.header__menu-item {
+    list-style: none;
+    margin: 0 0 0 31px;
+    font-size: 16px;
+}
+
+
+
+.header__menu-item-link {
+    text-decoration: none;
+}
+
+.header__menu-item-link:hover {
+    content: '';
+    color: #ff3365;
+}
+
+.header__all-menu-items {
+    margin: 0;
+    display: flex;
+}
+
+.header__text {
+    margin: 0;
+    font-size: 14px;
+    width: 210px;
+    height: 34px;
+    line-height: 1.21;
+}
+
+.header__menu, .header__logo-text {
+    display: flex;
+    align-items: center;
+}
+
+
+/* _____________________________________ and header _____________________________________ */
+
+/* _____________________________________ start main _____________________________________ */
+
+
+
+.about-curtains__button {
+    margin: 30px 0;
+}
+
+.stocks__button, .about-curtains__button {
+    font-size: 18px;
+}
+
+
+
+/* ------------------------------------- start ПРО ШТОРЫ (about-curtains) ------------------------------------- */
+
+.about-curtains {
+    padding: 218px 200px 60px;
+}
+
+.about-curtains__article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-curtains__img {
+    width: 394px;
+    height: 407px;
+    margin: 0 0 0 63px;
+}
+
+.about-curtains__info {
+    width: 651px;
+    min-width: 651px;
+    height: 407px;
+}
+
+.about-curtains__title-h1 {
+    font-size: 32px;
+}
+
+
+
+.about-curtains__article-four-points {
+    display: flex;
+    min-width: 1240px;
+}
+
+
+
+.about-curtains__point {
+    width: 233px;
+    min-width: 233px;
+    height: 106px;
+    margin: 15px 0 0;
+}
+
+.about-curtains__point-text {
+    font-size: 16px;
+}
+
+.about-curtains__point {
+    line-height: 1.5;
+
+}
+
+.about-curtains__title-h4, .about-curtains__point-text {
+    margin: 0;
+}
+
+.about-curtains__article-four-points {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-curtains__point_align-self {
+    align-self: flex-end;
+}
+
+.about-curtains__article-four-points {
+    height: 200px;
+    margin: 127px 0 0;
+}
+
+
+/* ------------------------------------- and ПРО ШТОРЫ (about-curtains) ------------------------------------- */
+
+/* ------------------------------------- start АКЦИИ (stocks) ------------------------------------- */
+.stocks_background {
+    background-image: url("image/2.stocks/background/path-2@2x.png");
+}
+
+
+.stocks {
+    padding: 0 200px 60px;
+}
+
+.stocks__imaga {
+    width: 358px;
+    height: 343px;
+}
+
+.stocks__article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stocks__title, .stocks__text_center {
+    text-align: center;
+}
+
+.stocks__item-img {
+    position: relative;
+}
+
+.stocks__text-position {
+    width: 80px;
+    height: 69px;
+    background-color: white;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stocks__text-position_div {
+    width: 48px;
+    height: 40;
+}
+
+.stocks__text-position {
+    font-size: 9px;
+}
+
+.stocks__text_big {
+    font-size: 22px;
+}
+
+.stocks__text-position, .stocks__text_big {
+    color: #ff3365;
+}
+
+.stocks__text-position_text-9px {
+    font-size: 20px;
+}
+
+.stocks__title-text {
+    min-width: 1140px;
+    padding: 70px 0 0;
+}
+
+.stocks__section {
+    margin: 64px 10px 80px;
+    background-color: white;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+
+.stocks__text {
+    font-size: 14px;
+    color: #8e98b1;
+    margin: 0;
+}
+
+.stocks__text-top {
+    font-size: 18px;
+}
+
+.stocks__text_line-through {
+    text-decoration: line-through;
+}
+
+.stocks__button_margin, .stocks__title-article, .stocks__info, .stocks__text_margin {
+    margin: 24px 42px;
+}
+
+
+
+/* ------------------------------------- and АКЦИИ (stocks) ------------------------------------- */
+
+/* ------------------------------------- start ОПЛАТЫ (payment) ------------------------------------- */
+
+.payment {
+    padding: 120px 200px 60px;
+    min-width: 1140px;
+}
+
+.payment__title {
+    text-align: center;
+}
+
+.payment__articles {
+    margin: 56px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.payment__logo-nova {
+    width: 206px;
+    height: 39px;
+}
+
+.payment__logo-privat {
+    width: 193px;
+    height: 35px;
+}
+
+.payment__article {
+    width: 270px;
+    height: 150px;
+    padding: 40px;
+    margin: 16.5px;
+}
+
+/* ------------------------------------- and ОПЛАТЫ (payment) ------------------------------------- */
+
+/* ------------------------------------- start ДОСТАВКА (delivery) ------------------------------------- */
+
+.delivery {
+    padding: 80px 200px 60px;
+    min-width: 1140px;
+}
+
+.delivery__title {
+    text-align: center;
+}
+
+.delivery__article {
+    width: 648px;
+    height: 108px;
+    margin: 56px auto;
+    padding: 40px;
+}
+
+/* ------------------------------------- and ДОСТАВКА (delivery) ------------------------------------- */
+
+/* ------------------------------------- and FAQ ------------------------------------- */
+
+.FAQ {
+    padding: 80px 200px 60px;
+    min-width: 1140px;
+}
+
+.FAQ__title {
+    text-align: center;
+}
+
+.FAQ__plus {
+    background: #313e5d;
+    height: 100px;
+    width: 20px;
+    position: relative;
+    left: 40px;
+}
+
+.FAQ__plus:after {
+    content: "";
+    height: 20px;
+    width: 100px;
+    background: #313e5d;
+    position: absolute;
+    left: -40px;
+    top: 40px;
+}
+
+/* ------------------------------------- and FAQ ------------------------------------- */
+
+
+/* _____________________________________ and main _____________________________________ */
