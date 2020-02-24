@@ -17,11 +17,11 @@
     text-transform: none;
 }
 
-.stocks__title {
+.stocks__title, .сontacts__title {
     font-size: 36px;
 }
 
-.stocks__text {
+.stocks__text, .FAQ__text, .сontacts__table-elem-text {
     font-size: 18px;
 }
 
@@ -29,7 +29,11 @@
     font-size: 24px;
 }
 
-.header__text, .header__menu-item, .about-curtains__list_font-weight, .about-curtains__number_green, .stocks__text-position, .stocks__text_600, .payment__font-weight, .delivery__font-weight, .FAQ__all-quest {
+.FAQ__title-form {
+    font-size: 32px;
+}
+
+.header__text, .header__menu-item, .about-curtains__list_font-weight, .about-curtains__number_green, .stocks__text-position, .stocks__text_600, .payment__font-weight, .delivery__font-weight, .FAQ__all-quest, .сontacts__table-elem_bold {
     font-weight: 600;
 }
 
@@ -366,10 +370,10 @@
 
 /* ------------------------------------- and FAQ ------------------------------------- */
 
-.FAQ {
-    padding: 80px 200px 60px;
+.FAQ__article_padding {
     min-width: 1140px;
-    margin: 0 auto;
+    padding: 80px 200px 60px;
+    margin: 0 140px;
 }
 
 .FAQ__all-quest {
@@ -415,12 +419,124 @@
 
 .FAQ__article_background {
     background: #f5f5f9;
-    /*width: 100%;*/
-    z-index: 2;
+    min-width: 1140px;
+    padding: 48px 200px;
 }
 
+.FAQ__input {
+    width: 303px;
+    height: 6px;
+    padding: 20px;
+    border-radius: 27px;
+    border: 1px solid #d5d5d5;
+    margin: 0 24px 0 0;
+}
+
+
+
 /* ------------------------------------- and FAQ ------------------------------------- */
+
+/* ------------------------------------- start КОНТАКТЫ ------------------------------------- */
+.сontacts {
+    padding: 80px 400px 60px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.сontacts__title {
+    text-align: center;
+}
+
+.сontacts__table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+    margin: 0 auto;
+}
+
+.сontacts__table-elem {
+    border-top: 1px solid #e9e9eb;
+    padding: 23px 0;
+}
+
+.сontacts__link {
+    color: #0db682;
+}
+
+.сontacts__facebook {
+    border-radius: 3px;
+    background: #475993;
+    position: relative;
+}
+
+.сontacts__facebook-f {
+    color: white;
+    font-size: 31px;
+    position: absolute;
+    right: 4px;
+}
+
+.сontacts__table-social {
+    border: 1px solid #d5d5d5;
+    border-radius: 27px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.сontacts__link_facebook, .сontacts__link_insta {
+    text-decoration: none;
+    color: #313e5d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.сontacts__insta {
+    border: 2.5px solid #ff3365;
+    border-radius: 6px;
+    position: relative;
+}
+
+.сontacts__insta, .сontacts__facebook {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.сontacts__insta_circle {
+    width: 10px;
+    height: 10px;
+    border: 2.5px solid #ff3365;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.сontacts__insta_point {
+    width: 0.1px;
+    border: 2px solid #ff3365;
+    border-radius: 6px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+/* ------------------------------------- and КОНТАКТЫ ------------------------------------- */
 
 
 /* _____________________________________ and main _____________________________________ */
 
+/* _____________________________________ start footer _____________________________________ */
+
+.footer {
+    padding: 80px 400px 60px;
+    min-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8e98b1;
+}
+
+/* _____________________________________ and footer _____________________________________ */

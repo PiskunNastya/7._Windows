@@ -166,7 +166,7 @@
 
         <!-- _____________________________________ START пунк меню FAQ _____________________________________ -->
         <section class="FAQ" id="menu_FAQ">
-            <article class="FAQ__article">
+            <article class="FAQ__article FAQ__article_padding">
                 <h3 class="FAQ__title">Поширенні питання при встановленні рулонних штор</h3>
                 <ul class="FAQ__all-quest">
                     <li class="FAQ__quest-item">
@@ -200,8 +200,8 @@
                 <h3 class="FAQ__title-form">Потрібна консультація?</h3>
                 <p class="FAQ__text">Заповніть поля формі і ми безкоштовно проконсультуемо Вас з усіх питань</p>
                 <form class="FAQ__form" action="">
-                    <input type="text" name="form" placeholder="Ваше ім'я">
-                    <input type="tel" name="form" placeholder="+380 (ХХ) ХХХ-ХХ-ХХ">
+                    <input class="FAQ__input" type="text" name="form" placeholder="Ваше ім'я">
+                    <input class="FAQ__input" type="tel" name="form" placeholder="+380 (ХХ) ХХХ-ХХ-ХХ">
                     <button class="FAQ__button">Чекаю на дзвінок</button>
                 </form>
             </form>
@@ -211,20 +211,21 @@
         <!-- _____________________________________ START пунк меню КОНТАКТЫ _____________________________________ -->
         <section class="сontacts" id="menu_сontacts">
             <h3 class="сontacts__title">Наші контакти</h3>
+
             <div class="сontacts__table">
-                <div class="сontacts__table-elem">Адреса</div>
+                <div class="сontacts__table-elem сontacts__table-elem_bold">Адреса</div>
                 <div class="сontacts__table-elem">
                     <address class="сontacts__table-elem-text">01002, м. Київ, вул. Пушкінськая, 20A (ст. м. Театральная)</address>
-                    <p class="сontacts__table-elem-text">Дивитися на мапі</p>
+                    <a class="сontacts__link"  href="#"><p class="сontacts__table-elem-text">Дивитися на мапі</p></a>
                 </div>
-                <div class="сontacts__table-elem">Телефон</div>
+                <div class="сontacts__table-elem сontacts__table-elem_bold">Телефон</div>
                 <div class="сontacts__table-elem">
                     <p class="сontacts__table-elem-text">+380 (67) 540-40-70</p>
                     <p class="сontacts__table-elem-text">+380 (67) 450-40-70</p>
                 </div>
-                <div class="сontacts__table-elem">Email</div>
-                <div class="сontacts__table-elem">hello@domain.com</div>
-                <div class="сontacts__table-elem">Графік роботи</div>
+                <div class="сontacts__table-elem сontacts__table-elem_bold">Email</div>
+                <div class="сontacts__table-elem"><a class="сontacts__link" href="#">hello@domain.com</a></div>
+                <div class="сontacts__table-elem сontacts__table-elem_bold">Графік роботи</div>
                 <div class="сontacts__table-elem">
                     <div class="сontacts__table-elem-alltext">
                         <time class="сontacts__table-elem-text">пт-пт: с 10:00 до 20:00</time>
@@ -232,18 +233,31 @@
                         <time class="сontacts__table-elem-text">нд: вихідний</time>
                     </div>
                 </div>
-                <div class="сontacts__table-elem">Соціальні мережі</div>
+                <div class="сontacts__table-elem сontacts__table-elem_bold">Соціальні мережі</div>
+
                 <div class="сontacts__table-elem">
-                    <div>
+
+
                         <div class="сontacts__table-social">
-                            <div></div>
-                            <p class="сontacts__table-elem-text">Мы в Facebook</p>
+                            <a class="сontacts__link_facebook" href="#">
+                                <div class="сontacts__facebook">
+                                    <div class="сontacts__facebook-f">f</div>
+                                </div>
+                                <p class="сontacts__table-elem-text">Мы в Facebook</p>
+                            </a>
                         </div>
+
                         <div class="сontacts__table-social">
-                            <div></div>
-                            <p class="сontacts__table-elem-text">Мы в Instagram</p>
+                            <a class="сontacts__link_insta" href="#">
+                                <div class="сontacts__insta">
+                                    <div class="сontacts__insta_circle"></div>
+                                    <div class="сontacts__insta_point"></div>
+                                </div>
+                                <p class="сontacts__table-elem-text">Мы в Instagram</p>
+                            </a>
                         </div>
-                    </div>
+
+
                 </div>
             </div>
 
@@ -253,7 +267,7 @@
     </main>
 
 
-    <footer>
+    <footer class="footer">
         <p>© 2017-2018 WINROLL | Всі права захищені</p>
     </footer>
 
